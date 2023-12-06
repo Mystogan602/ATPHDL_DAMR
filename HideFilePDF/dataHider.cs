@@ -37,6 +37,8 @@ namespace HideFilePDF
             catch (Exception ex)
             {
                 Console.WriteLine($"Lỗi: {ex.Message}");
+
+
             }
         }
     }
