@@ -12,7 +12,7 @@ using iText.Kernel.Pdf.Canvas;
 
 namespace HideFilePDF
 {
-    class Class1
+    class dataHider
     {
         public static void HideDataInPdf(string filePath, string dataToHide)
         {
@@ -33,7 +33,7 @@ namespace HideFilePDF
                 File.WriteAllBytes(outputFilePath, newPdfBytes);
 
                 Console.WriteLine("Đã ẩn dữ liệu thành công!");
-            }
+            }     
             catch (Exception ex)
             {
                 Console.WriteLine($"Lỗi: {ex.Message}");
